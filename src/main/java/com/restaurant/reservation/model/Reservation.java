@@ -3,15 +3,15 @@ package com.restaurant.reservation.model;
 import java.util.Date;
 
 public class Reservation {
-    private long id;
+    private int id;
     private int numberOfGuest;
     private Date reservationDate;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
