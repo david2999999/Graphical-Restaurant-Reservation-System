@@ -2,6 +2,7 @@ package com.restaurant.reservation.model.restaurant;
 
 public class Restaurant {
     private String name;
+    private String description;
     private RestaurantDetails restaurantDetails;
 
     public String getName() {
