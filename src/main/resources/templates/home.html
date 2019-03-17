@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Eternal Venus</title>
+    <link rel="stylesheet" type="text/css" href="css/SearchBar.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:400,600" rel="stylesheet">
 </head>
 <body>
-    <h1>hello</h1>
-    hello is this working?
+
+
+
+    <div class="container">
+        <div class="search-bar">
+            <h1 class="header-main">Find Your Table for Any Occasion</h1>
+            <div class="search-box">
+                <p>Date: <input class="search-box_input" type="text" id="datepicker" size="30"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+            $( "#anim" ).on( "change", function() {
+                $( "#datepicker" ).datepicker( "option", "showAnim", $( this ).val() );
+            });
+        } );
+    </script>
 </body>
 </html>
