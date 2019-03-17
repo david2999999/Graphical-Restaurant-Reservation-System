@@ -13,9 +13,27 @@
     <div class="container">
         <div class="search-bar">
             <h1 class="header-main">Find Your Table for Any Occasion</h1>
-            <div class="search-box">
-                <p>Date: <input class="search-box_input" type="text" id="datepicker" size="30"></p>
-            </div>
+            <form action="">
+                <div class="search-box">
+                    <div class="date_picker">
+                        <input type="text" id="datepicker" placeholder="Choose a Date" size="30">
+                    </div>
+                    <div class="time">
+                        <input type="text" placeholder="Time">
+                    </div>
+                    <div class="number-of-people">
+                        <input type="number" placeholder="Number of People" size="30">
+                    </div>
+                </div>
+                <div class="search-box">
+                    <div>
+                        <input type="text" placeholder="Specific Location">
+                    </div>
+                    <button class="search-button">
+                        Find Table
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 
