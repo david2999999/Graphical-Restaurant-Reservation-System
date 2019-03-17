@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Eternal Venus</title>
     <link rel="stylesheet" type="text/css" href="css/SearchBar.css">
-    <link href="https://fonts.googleapis.com/css?family=Overpass:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
 </head>
 <body>
 
@@ -16,20 +16,20 @@
             <form action="">
                 <div class="search-box">
                     <div class="date_picker">
-                        <input type="text" id="datepicker" placeholder="Choose a Date" size="30">
+                        <input type="text" name="date" id="datepicker" placeholder="Choose a Date" size="30">
                     </div>
                     <div class="time">
-                        <input type="text" placeholder="Time">
+                        <input type="text" name="time" placeholder="Time">
                     </div>
                     <div class="number-of-people">
-                        <input type="number" placeholder="Number of People" size="30">
+                        <input type="number" name="numberOfPeople" placeholder="Number of People" size="30">
                     </div>
                 </div>
                 <div class="search-box">
                     <div>
-                        <input type="text" placeholder="Specific Location">
+                        <input type="text" name="location" placeholder="Specific Location">
                     </div>
-                    <button class="search-button">
+                    <button class="search-button" type="submit">
                         Find Table
                     </button>
                 </div>
