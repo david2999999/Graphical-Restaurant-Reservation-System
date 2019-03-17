@@ -1,0 +1,27 @@
+.button-secondary {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: .8rem;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translateY(-20px);
+}
+
+.button-secondary:hover {
+    cursor: pointer;
+}
+
+.button-secondary_signup {
+    background-color: #7d5fff;
+
+}
+
+.button-secondary_signup:hover {
+    background-color: #7158e2;
+}
+
+.button-secondary_signin {
+    color: black;
+}

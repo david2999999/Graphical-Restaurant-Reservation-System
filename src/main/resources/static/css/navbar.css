@@ -1,0 +1,19 @@
+.navbar {
+    height: 40px;
+    background-color: white;
+    padding: 1rem 3rem;
+}
+
+.navbar-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-buttons {
+    float: right;
+    display: inline-block;
+    padding-top: .5rem;
+}
