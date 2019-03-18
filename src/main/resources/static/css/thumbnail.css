@@ -9,7 +9,14 @@
     width: 15rem;
     border-radius: 5px;
     padding: 0;
-    height: 10rem;
+    height: 20rem;
+    border: 1px solid #D3D3D3;
+    transition: all .3s;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .thumbnail__image {
@@ -21,4 +28,15 @@
     height: 10rem;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+
+.thumbnail-bottom {
+    height: 20rem;
+    padding: .8rem;
+}
+.thumbnail-header {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #2A2A2A;
 }
