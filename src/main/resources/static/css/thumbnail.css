@@ -1,0 +1,24 @@
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    justify-content: space-evenly;
+}
+
+.thumbnail {
+    width: 15rem;
+    border-radius: 5px;
+    padding: 0;
+    height: 10rem;
+}
+
+.thumbnail__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 10rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}

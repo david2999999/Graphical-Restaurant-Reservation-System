@@ -2,6 +2,12 @@ body {
     background-color: #eeeeee;
     margin: 2rem 2.5rem;
     min-width: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 0 5rem;
 }
 
 section {
