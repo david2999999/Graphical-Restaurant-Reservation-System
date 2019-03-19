@@ -7,9 +7,19 @@ body {
 
 .container {
     background-color: white;
-    padding: 0 5rem;
+    padding: 2rem 5rem 0 5rem;
 }
 
 section {
     padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header__secondary {
+    padding: 0;
+    display: inline-block;
+    color: #2A2A2A;
 }

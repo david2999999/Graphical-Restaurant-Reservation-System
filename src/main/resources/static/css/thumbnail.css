@@ -1,7 +1,7 @@
 .thumbnails {
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem 0;
+    padding: 2rem 0;
     justify-content: space-evenly;
 }
 
@@ -39,4 +39,16 @@
     margin: 0;
     font-size: 1rem;
     color: #2A2A2A;
+}
+
+.view-all {
+    display: inline-block;
+    float: right;
+    padding-top: .5rem;
+    text-decoration: none;
+    color: #9b59b6;
+}
+
+.view-all:hover {
+    color: #8e44ad;
 }
