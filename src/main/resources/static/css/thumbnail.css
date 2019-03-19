@@ -58,7 +58,7 @@
     font-weight: 600;
 }
 
-.thumbnail-restaurant-type {
+.thumbnail-additional-information {
     font-size: .8rem;
     font-weight: 300;
     padding: .2rem 0;
@@ -70,6 +70,7 @@
     padding-top: .5rem;
     text-decoration: none;
     color: #9b59b6;
+    font-weight: 600;
 }
 
 .view-all:hover {
