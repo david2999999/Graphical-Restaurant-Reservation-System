@@ -51,6 +51,19 @@
     color: #e74c3c;
 }
 
+.thumbnail-rating_amount {
+    font-size: .9rem;
+    padding-left: .2rem;
+    color: #34495e;
+    font-weight: 600;
+}
+
+.thumbnail-restaurant-type {
+    font-size: .8rem;
+    font-weight: 300;
+    padding: .2rem 0;
+}
+
 .view-all {
     display: inline-block;
     float: right;
