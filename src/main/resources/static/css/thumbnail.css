@@ -12,6 +12,7 @@
     height: 20rem;
     border: 1px solid #D3D3D3;
     transition: all .3s;
+    margin-bottom: 1rem;
 }
 
 .thumbnail:hover {
@@ -39,6 +40,15 @@
     margin: 0;
     font-size: 1rem;
     color: #2A2A2A;
+}
+
+.thumbnail-rating {
+    color: #D3D3D3;
+    font-size: 20px;
+}
+
+.rating-red {
+    color: #e74c3c;
 }
 
 .view-all {
